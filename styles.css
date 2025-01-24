@@ -86,7 +86,7 @@ input[type="number"]{
 .button{
     height: 30px;
     width: 60px;
-    background-color: black;
+    background-color: white;
     border-radius: 20px;
     padding: 4px;
     margin-left: 20PX;
@@ -116,9 +116,7 @@ input[type="number"]{
 #carcateres-especiales:checked ~ .button .circle-3
 {
     left: 50%;
-    transition: 2s;
     cursor: pointer;
-    transition: left 2s ease;
     transition-duration: 1s;
     background-color: green;
 }
