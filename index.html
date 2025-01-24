@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Generador</title>
+</head>
+
+<body>
+    <h1 class="title">..:: Generador de Contraseñas ::..</h1>
+    <main class="main">
+        <section class="contenedor izquierda">
+        <h2>Configuracion</h2>
+            <section class="contenedor-grid">
+                    <label for="number-long">Maximo de Caracteres</label>
+                    <input type="number" id="number-long" min="3" max="40" value="3">
+
+                    <label for="numeros">Numeros</label>
+                    <input type="checkbox" name="datos" id="numeros">
+                    <div class="button"><div class="circle-1" id="circle-1"></div></div>
+    
+                    <label for="letras">Letras Mayusculas</label>
+                    <input type="checkbox" name="datos" id="letras">
+                    <div class="button"><div class="circle-2" id="circle-2"></div></div>
+    
+                    <label for="carcateres-especiales">Caracteres Especiales</label>
+                    <input type="checkbox" name="datos" id="carcateres-especiales">
+                    <div class="button"><div class="circle-3" id="circle-3"></div></div>
+            </section>
+        </section>
+
+        <section class="contenedor derecha">
+            <h2>Resultado</h2><br>
+            <div class="txt-texto-generado" id="txt-texto-generado"></div>
+            
+            <div class="buttons">
+                <button class="btn-copiar" id="copiar">Copiar</button>
+                <button class="btn-generar" id="generar">Generar</button>
+            </div>
+        </section>
+
+        <script src="/script.js"></script>
+    </main>
+</body>
+</html>
